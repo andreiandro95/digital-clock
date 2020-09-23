@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-display{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: green;
+}
+.time-date{
+    width: 80vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.date{
+    text-align: center;
+    font-size: 3rem;
+}
+.hour-minutes{
+    font-size: 15rem;
+}
+.seconds{
+    font-size: 10rem;
+}
